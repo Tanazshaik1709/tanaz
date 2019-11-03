@@ -1,0 +1,131 @@
+body {background-color: #20B2AA ;
+font-family: arial;}
+#container {
+  width:100%;
+  height:100%;
+  background-color:#20B2AA;
+  border: ;
+  box-sizing:border-box;
+}
+#headerbar {
+  width: 100%;
+  height: 200px;
+  background-color:#20B2AA;
+  border: ;
+  box-sizing:border-box;
+  color: blue;
+  background-color: black;
+}
+#headertitle {
+  width: 80%;
+  height: 100%;
+  background-color:#20B2AA ;
+  border: ;
+  box-sizing:border-box;
+  display: inline-block;
+  float:left;
+}
+#headerimage {
+  width: 20%;
+  height: 100%;
+  background-color:#20B2AA;
+  border: ;
+  box-sizing:border-box;
+  display: inline-block;
+}
+.titleobj {
+  margin:auto;
+  text-align:center;
+  vertical-align:center;
+  line-height:200px;
+  font-size: 5vw;
+}
+#mainbody{
+  width:100%;
+  border:;
+  height:500px;
+  box-sizing: border-box;
+  display:block;
+}
+#textpart{
+  width:50%;
+  height: 100%;
+  border: 2px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+}
+#formpart{
+  width:50%;
+  height: 100%;
+  border: 2px solid black;
+  box-sizing: border-box;
+  display:inline-block;
+  float:right;
+ 
+}
+#formid{
+  text-align:center;
+  height:100%;
+}
+#intro {
+  width:100%;
+  height:50%;
+  border: ;
+ 
+  display:block;
+ 
+}
+#message {
+  width:100%;
+  height:50%;
+  border: ;
+ 
+  display:block;
+  text-align: center;
+}
+input{
+  width:75%;
+  text-align:;
+}
+textarea{
+  width:100%;
+  text-align:center;
+  height:80px;
+}
+select{
+  width:75%;
+  text-align:center;
+ 
+}
+h2{
+  text-align:center;
+}
+.button {
+  background-color: #20B2AA;
+  border: solid;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  width:25%;
+}
+#infomessage{
+ padding: 100px,50px,50px,50px;
+ text-align:center;
+  border:;
+  height:64%;
+  width:100%;
+  box-sizing: border-box;
+} 
+#welcomemessage{
+  padding: 100px,50px,50px,50px;
+  text-align:center;
+  height:auto;
+  width:100%;
+  box-sizing: border-box;
+ 
+ 
+}

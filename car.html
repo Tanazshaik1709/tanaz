@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Test Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='car.css') }}">
+  </head>
+<body>
+  <div id="container">
+    <div id="headerbar">
+      <div id="headertitle">
+        <h1 class="titleobj">Book Your Car Here</h1>
+      </div>
+      <div id="headerimage">
+        <img id="picture" class="titleobj" src="https://content.homenetiol.com/89516fc604e5466bad2fd415b7630037.jpg" style="width:100%;height:100%;">
+      </div>
+    </div>
+    <div id="mainbody">
+      <!--div id="textpart">
+        <div id="intro">
+          <h2>Welcome</h2>
+          <p id="welcomemessage">Welcome to the new online vehicle booking service. If you require a vehicle, complete the online form to the right with your request. Once the request has been processed you will receive a notification confirming the availability.</p>
+        </div>
+        <div id="message">
+          <h2>Information</h2>
+          <p id="infomessage"></p>
+        </div>
+      </div-->
+      <div id="formpart">
+        <form action="#" method="" id="formid">
+    <option></option>
+  </select>
+          <br> Vehicle:
+          <br>
+          <select id="selectCar" required>
+    <option></option>
+  </select><br> <br><br><br>
+  From date:<br>
+          <input type="datetime-local" name="date1" id="date1" required>
+          <br> To Date:<br>
+          <input type="datetime-local" name="date2" id="date2" required>
+          <br>
+          <br>
+          <input type="submit" class="button" id="enter" value="Enter">
+        </form>
+      </div>
+    </div>
+</body>
+</html>
